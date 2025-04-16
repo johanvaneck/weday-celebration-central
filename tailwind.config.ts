@@ -53,11 +53,11 @@ export default {
           foreground: 'hsl(var(--card-foreground))'
         },
         weday: {
-          primary: '#D2691E',     // Autumn Russet
-          secondary: '#8B4513',   // Saddle Brown
-          tertiary: '#CD853F',    // Peru (warm brown)
-          light: '#DEB887',       // Burlywood (light autumn)
-          dark: '#5D4037',        // Deep brown
+          primary: '#B7791F',     // Warm golden brown
+          secondary: '#8B5A2B',   // Rich golden brown
+          tertiary: '#D2691E',    // Elegant terracotta
+          light: '#F0E6D2',       // Soft cream
+          dark: '#5D4037',        // Deep warm brown
         }
       },
       borderRadius: {
