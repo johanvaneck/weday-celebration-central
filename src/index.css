@@ -1,28 +1,29 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 27 50% 98%;     // Light cream
-    --foreground: 25 5% 10%;      // Dark brown
+    --background: 27 50% 98%;     /* Light cream */
+    --foreground: 25 5% 10%;      /* Dark brown */
 
-    --card: 30 50% 96%;           // Soft orange
+    --card: 30 50% 96%;           /* Soft orange */
     --card-foreground: 25 5% 10%;
 
     --popover: 30 50% 96%;
     --popover-foreground: 25 5% 10%;
 
-    --primary: 27 70% 50%;        // Autumn russet
+    --primary: 27 70% 50%;        /* Autumn russet */
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 25 50% 40%;      // Deep brown
+    --secondary: 25 50% 40%;      /* Deep brown */
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 30 30% 90%;          // Light autumn
+    --muted: 30 30% 90%;          /* Light autumn */
     --muted-foreground: 25 10% 40%;
 
-    --accent: 30 60% 85%;         // Warm orange
+    --accent: 30 60% 85%;         /* Warm orange */
     --accent-foreground: 25 5% 10%;
 
     --destructive: 0 84.2% 60.2%;
@@ -36,25 +37,25 @@
   }
 
   .dark {
-    --background: 25 5% 10%;      // Dark brown
-    --foreground: 30 50% 96%;     // Light cream
+    --background: 25 5% 10%;      /* Dark brown */
+    --foreground: 30 50% 96%;     /* Light cream */
 
-    --card: 25 10% 15%;           // Very dark brown
+    --card: 25 10% 15%;           /* Very dark brown */
     --card-foreground: 30 50% 96%;
 
     --popover: 25 10% 15%;
     --popover-foreground: 30 50% 96%;
 
-    --primary: 30 70% 50%;        // Bright autumn orange
+    --primary: 30 70% 50%;        /* Bright autumn orange */
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 25 50% 30%;      // Deeper brown
+    --secondary: 25 50% 30%;      /* Deeper brown */
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 25 10% 20%;          // Muted dark brown
+    --muted: 25 10% 20%;          /* Muted dark brown */
     --muted-foreground: 30 30% 70%;
 
-    --accent: 25 30% 25%;         // Dark autumn
+    --accent: 25 30% 25%;         /* Dark autumn */
     --accent-foreground: 30 50% 96%;
 
     --border: 25 10% 20%;
