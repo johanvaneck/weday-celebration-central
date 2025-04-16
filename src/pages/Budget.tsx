@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
@@ -80,7 +79,6 @@ const Budget = () => {
       id: "3",
       name: "Photography",
       category: "Photography & Video",
-      estimatedCost: 3500,
       estimatedCost: 3500,
       paid: false,
       notes: "8 hours of coverage, engagement session included",
