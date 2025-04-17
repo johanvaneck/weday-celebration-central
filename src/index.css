@@ -4,32 +4,32 @@
 
 @layer base {
   :root {
-    --background: 38 20% 95%;     /* Significantly brighter background */
+    --background: 0 0% 100%;     /* Pure white background */
     --foreground: 0 0% 20%;       /* Keeps the deep charcoal for contrast */
 
-    --card: 38 15% 98%;           /* Even lighter card background */
+    --card: 0 0% 100%;            /* Pure white card background */
     --card-foreground: 0 0% 25%;  /* Slightly lighter foreground */
 
-    --popover: 38 15% 98%;
+    --popover: 0 0% 100%;
     --popover-foreground: 0 0% 25%;
 
-    --primary: 38 35% 65%;        /* More saturated and vibrant primary */
+    --primary: 38 35% 65%;        /* Keeping the existing primary color */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 38 35% 55%;      /* Vibrant secondary color */
+    --secondary: 38 35% 55%;      /* Keeping the existing secondary color */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 38 20% 90%;          /* Bright muted background */
+    --muted: 0 0% 98%;            /* Very light gray, almost white */
     --muted-foreground: 0 0% 40%;
 
-    --accent: 38 40% 70%;         /* Even more vibrant accent */
+    --accent: 38 40% 70%;         /* Keeping the existing accent */
     --accent-foreground: 0 0% 25%;
 
-    --destructive: 0 70% 55%;     /* Keeps the bright red */
+    --destructive: 0 70% 55%;     /* Keeping the existing destructive color */
     --destructive-foreground: 0 0% 100%;
 
-    --border: 38 25% 85%;
-    --input: 38 25% 85%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
     --ring: 38 35% 65%;
 
     --radius: 0.5rem;

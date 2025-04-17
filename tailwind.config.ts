@@ -53,11 +53,11 @@ export default {
           foreground: 'hsl(var(--card-foreground))'
         },
         weday: {
-          primary: '#b5a287',     // Brighter, more golden taupe
-          secondary: '#9c816d',   // Richer, more saturated secondary
-          tertiary: '#cac1b5',    // Lighter, brighter variation
-          light: '#f5f3f0',       // Very bright, warm off-white
-          dark: '#453e36',        // Deep, rich dark tone
+          primary: '#b5a287',
+          secondary: '#9c816d',
+          tertiary: '#cac1b5',
+          light: '#ffffff',
+          dark: '#453e36',
         }
       },
       borderRadius: {
