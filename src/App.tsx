@@ -9,6 +9,8 @@ import Guests from "./pages/Guests";
 import Vendors from "./pages/Vendors";
 import Tasks from "./pages/Tasks";
 import Budget from "./pages/Budget";
+import Timeline from "./pages/Timeline";
+import Messages from "./pages/Messages";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,9 +28,8 @@ const App = () => (
           <Route path="/vendors" element={<Vendors />} />
           <Route path="/tasks" element={<Tasks />} />
           <Route path="/budget" element={<Budget />} />
-          {/* Routes for future pages */}
-          <Route path="/timeline" element={<NotFound />} />
-          <Route path="/messages" element={<NotFound />} />
+          <Route path="/timeline" element={<Timeline />} />
+          <Route path="/messages" element={<Messages />} />
           <Route path="/settings" element={<NotFound />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
