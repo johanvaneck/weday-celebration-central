@@ -1,65 +1,66 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 39 70% 98%;     /* Very light golden cream */
-    --foreground: 25 20% 20%;     /* Dark warm brown */
+    --background: 60 3% 85%;     /* #d8d8d5 */
+    --foreground: 0 0% 33%;      /* #545454 */
 
-    --card: 39 60% 95%;           /* Soft golden */
-    --card-foreground: 25 20% 20%;
+    --card: 60 5% 90%;           /* Lighter version of #d8d8d5 */
+    --card-foreground: 0 0% 33%; /* #545454 */
 
-    --popover: 39 60% 95%;
-    --popover-foreground: 25 20% 20%;
+    --popover: 60 5% 90%;
+    --popover-foreground: 0 0% 33%;
 
-    --primary: 30 70% 45%;        /* Warm golden brown */
-    --primary-foreground: 0 0% 98%;
+    --primary: 38 19% 58%;       /* #ab9b7c */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 30 50% 35%;      /* Rich golden brown */
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 38 24% 45%;     /* Darker version of #ab9b7c */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 39 40% 90%;          /* Light golden cream */
-    --muted-foreground: 25 20% 40%;
+    --muted: 60 3% 80%;          /* Muted version of #d8d8d5 */
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 39 60% 80%;         /* Warm golden */
-    --accent-foreground: 25 20% 20%;
+    --accent: 38 19% 65%;        /* Lighter version of #ab9b7c */
+    --accent-foreground: 0 0% 33%;
 
-    --destructive: 14 70% 50%;    /* Soft terracotta */
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 70% 50%;    /* Red */
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 39 30% 85%;
-    --input: 39 30% 85%;
-    --ring: 30 70% 45%;
+    --border: 38 10% 75%;
+    --input: 38 10% 75%;
+    --ring: 38 19% 58%;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 25 20% 10%;     /* Deep warm brown */
-    --foreground: 39 70% 95%;     /* Light golden cream */
+    --background: 0 0% 20%;      /* Darker version of #545454 */
+    --foreground: 60 3% 85%;     /* #d8d8d5 */
 
-    --card: 25 20% 15%;           /* Very dark brown */
-    --card-foreground: 39 70% 95%;
+    --card: 0 0% 15%;            /* Very dark gray */
+    --card-foreground: 60 3% 85%;
 
-    --popover: 25 20% 15%;
-    --popover-foreground: 39 70% 95%;
+    --popover: 0 0% 15%;
+    --popover-foreground: 60 3% 85%;
 
-    --primary: 39 70% 50%;        /* Golden orange */
-    --primary-foreground: 0 0% 98%;
+    --primary: 38 19% 58%;       /* #ab9b7c */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 30 50% 25%;      /* Deep golden brown */
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 38 19% 40%;     /* Darker version of #ab9b7c */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 25 20% 20%;          /* Muted dark brown */
-    --muted-foreground: 39 50% 70%;
+    --muted: 0 0% 25%;           /* Muted dark gray */
+    --muted-foreground: 60 3% 70%;
 
-    --accent: 25 30% 25%;         /* Dark golden brown */
-    --accent-foreground: 39 70% 95%;
+    --accent: 38 15% 35%;        /* Dark version of #ab9b7c */
+    --accent-foreground: 60 3% 85%;
 
-    --border: 25 20% 20%;
-    --input: 25 20% 20%;
-    --ring: 39 70% 50%;
+    --border: 0 0% 25%;
+    --input: 0 0% 25%;
+    --ring: 38 19% 58%;
   }
 }
 
