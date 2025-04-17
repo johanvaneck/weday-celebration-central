@@ -1,66 +1,65 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 60 3% 85%;     /* #d8d8d5 */
-    --foreground: 0 0% 33%;      /* #545454 */
+    --background: 60 10% 90%;     /* Brighter light gray */
+    --foreground: 0 0% 20%;       /* Darker charcoal for contrast */
 
-    --card: 60 5% 90%;           /* Lighter version of #d8d8d5 */
-    --card-foreground: 0 0% 33%; /* #545454 */
+    --card: 60 10% 95%;           /* Even lighter card background */
+    --card-foreground: 0 0% 25%;  /* Slightly lighter foreground */
 
-    --popover: 60 5% 90%;
-    --popover-foreground: 0 0% 33%;
+    --popover: 60 10% 95%;
+    --popover-foreground: 0 0% 25%;
 
-    --primary: 38 19% 58%;       /* #ab9b7c */
+    --primary: 38 30% 60%;        /* More saturated taupe/gold */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 38 24% 45%;     /* Darker version of #ab9b7c */
+    --secondary: 38 30% 50%;      /* More vibrant secondary color */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 60 3% 80%;          /* Muted version of #d8d8d5 */
-    --muted-foreground: 0 0% 45%;
+    --muted: 60 10% 85%;          /* Brighter muted background */
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 38 19% 65%;        /* Lighter version of #ab9b7c */
-    --accent-foreground: 0 0% 33%;
+    --accent: 38 35% 65%;         /* More vibrant accent */
+    --accent-foreground: 0 0% 25%;
 
-    --destructive: 0 70% 50%;    /* Red */
+    --destructive: 0 70% 55%;     /* Slightly brighter red */
     --destructive-foreground: 0 0% 100%;
 
-    --border: 38 10% 75%;
-    --input: 38 10% 75%;
-    --ring: 38 19% 58%;
+    --border: 38 20% 80%;
+    --input: 38 20% 80%;
+    --ring: 38 30% 60%;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 0 0% 20%;      /* Darker version of #545454 */
-    --foreground: 60 3% 85%;     /* #d8d8d5 */
+    --background: 0 0% 15%;       /* Slightly lighter dark background */
+    --foreground: 60 3% 90%;      /* Brighter light gray */
 
-    --card: 0 0% 15%;            /* Very dark gray */
+    --card: 0 0% 10%;             /* Dark card background */
     --card-foreground: 60 3% 85%;
 
-    --popover: 0 0% 15%;
+    --popover: 0 0% 10%;
     --popover-foreground: 60 3% 85%;
 
-    --primary: 38 19% 58%;       /* #ab9b7c */
+    --primary: 38 30% 55%;        /* Slightly darker primary in dark mode */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 38 19% 40%;     /* Darker version of #ab9b7c */
+    --secondary: 38 30% 45%;      /* Adjusted secondary for dark mode */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 25%;           /* Muted dark gray */
-    --muted-foreground: 60 3% 70%;
+    --muted: 0 0% 20%;            /* Slightly brighter dark muted */
+    --muted-foreground: 60 3% 75%;
 
-    --accent: 38 15% 35%;        /* Dark version of #ab9b7c */
+    --accent: 38 25% 40%;         /* Dark mode accent */
     --accent-foreground: 60 3% 85%;
 
     --border: 0 0% 25%;
     --input: 0 0% 25%;
-    --ring: 38 19% 58%;
+    --ring: 38 30% 55%;
   }
 }
 
