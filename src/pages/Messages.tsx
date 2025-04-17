@@ -215,13 +215,15 @@ const Messages = () => {
           <Card className="lg:col-span-1 border overflow-hidden">
             <CardHeader className="px-4 py-3 space-y-3">
               <div className="flex items-center space-x-3">
-                <Input 
-                  placeholder="Search messages..." 
-                  className="h-9"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  prefix={<Search className="h-4 w-4 text-muted-foreground" />}
-                />
+                <div className="relative flex-1">
+                  <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                  <Input 
+                    placeholder="Search messages..." 
+                    className="h-9 pl-9"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                  />
+                </div>
                 <Button size="icon" variant="ghost" className="text-muted-foreground">
                   <UserPlus size={18} />
                 </Button>
